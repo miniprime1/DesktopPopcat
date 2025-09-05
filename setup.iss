@@ -11,14 +11,15 @@
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
+AppId={{4A993507-543B-45C6-B61E-787F6F2E1201}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName}
 AppPublisher={#MyAppPublisher}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
-LicenseFile=C:\Users\minip\source\repos\license.txt
-OutputDir=C:\Users\minip\source\repos\
+LicenseFile=C:\Users\minip\source\DesktopPopcat-main\license.txt
+OutputDir=C:\Users\minip\source\DesktopPopcat-main\
 OutputBaseFilename=setup
 Compression=lzma
 SolidCompression=yes
@@ -30,15 +31,15 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\DesktopPopcat.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\DesktopPopcat.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\pop_cat.gif"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\sound.wav"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\WpfAnimatedGif.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\WpfAnimatedGif.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\minip\source\repos\DesktopPopcat\DesktopPopcat\bin\Debug\WpfAnimatedGif.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\DesktopPopcat.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\DesktopPopcat.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\pop_cat.gif"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\sound.wav"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\WpfAnimatedGif.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\WpfAnimatedGif.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\minip\source\DesktopPopcat-main\DesktopPopcat\DesktopPopcat\bin\Debug\WpfAnimatedGif.xml"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
